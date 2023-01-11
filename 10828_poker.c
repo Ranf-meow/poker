@@ -29,6 +29,13 @@ void SetColor(int color )
   hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
   SetConsoleTextAttribute(hConsole,color);
 }
+int printcolor(int a)
+{
+    a=rand()%10+6;
+    SetColor(a);
+
+}
+
 int setnum(int f, int n)
 //給牌花色(1~4)、數字(1~13)，回傳編號(1~52)
 {
@@ -772,7 +779,54 @@ int main()
 	a=rand()%4;
 
 	printf_flower(a);
-	printf(ORI"Welcome to poker card game! ");
+	printcolor(a);
+	printf("W");
+	printcolor(a);
+	printf("e");
+	printcolor(a);
+	printf("l");
+	printcolor(a);
+	printf("c");
+	printcolor(a);
+	printf("o");
+	printcolor(a);
+	printf("m");
+	printcolor(a);
+	printf("e ");
+	printcolor(a);
+	printf("T");
+	printcolor(a);
+	printf("o ");
+	printcolor(a);
+	printf("P");
+	printcolor(a);
+	printf("o");
+	printcolor(a);
+	printf("k");
+	printcolor(a);
+	printf("e");
+	printcolor(a);
+	printf("r ");
+	printcolor(a);
+	printf("c");
+	printcolor(a);
+	printf("a");
+	printcolor(a);
+	printf("r");
+	printcolor(a);
+	printf("d ");
+	printcolor(a);
+	printf("G");
+	printcolor(a);
+	printf("a");
+	printcolor(a);
+	printf("m");
+	printcolor(a);
+	printf("e");
+	printcolor(a);
+	printf("! ");
+
+//    printf(ORI"Welcome to poker card game! ");
 	printf_flower(a);
 	printf("\n");
 	for(i=0;i<16;i++)
@@ -914,6 +968,50 @@ int main()
 	build_matrix(D,flower_count_D,num_count_D);
 	compare_card(A,B,C,D);
 	SetColor(1);
+	printf(ORI"\n");
+    printcolor(a);
+	printf("T");
+	printcolor(a);
+	printf("h");
+	printcolor(a);
+	printf("a");
+	printcolor(a);
+	printf("n");
+	printcolor(a);
+	printf("K ");
+	printcolor(a);
+	printf("y");
+	printcolor(a);
+	printf("o");
+	printcolor(a);
+	printf("u ");
+	printcolor(a);
+	printf("f");
+	printcolor(a);
+	printf("o");
+	printcolor(a);
+	printf("r ");
+	printcolor(a);
+	printf("p");
+	printcolor(a);
+	printf("l");
+	printcolor(a);
+	printf("a");
+	printcolor(a);
+	printf("y");
+	printcolor(a);
+	printf("i");
+	printcolor(a);
+	printf("n");
+	printcolor(a);
+	printf("g");
+	printcolor(a);
+	printf("!");
+	printcolor(a);
+	printf("!");
+	printcolor(a);
+	printf("!");
+
 	printf(ORI"\n");
 	system("pause");
 	return 0;
