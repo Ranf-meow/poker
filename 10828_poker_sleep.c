@@ -863,6 +863,7 @@ int main()
 	SetColor(14);
 	printf("PRESS ENTER TO START!");
     getchar();
+    printf("\n");
 	for(i=0;i<100;i++)
 	{
 	    //取隨意兩個數
